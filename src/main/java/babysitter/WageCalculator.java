@@ -28,7 +28,8 @@ public class WageCalculator {
         } else {
             return bedTimeEarnings = 0;
         }
-    }
+    }ChessCChess
+    
 
     public int calculateMidnightEarnings(int startingHour, int endingHour, int bedtime) {
         if (endingHour > 24) {
@@ -46,7 +47,4 @@ public class WageCalculator {
         return totalPay;
     }
 }
-
-
-//    (wages1*shiftonehours1)+(w2*s2)+{w3*s3)= totalPay}
 
